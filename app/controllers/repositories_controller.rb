@@ -13,6 +13,7 @@ class RepositoriesController < ApplicationController
           req.params['near'] = params[:zipcode]
           req.params['query'] = 'coffee shop'
           #req.options.timeout = 0
-        end
+      end
+    end
   end
 end
